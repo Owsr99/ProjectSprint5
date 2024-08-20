@@ -4,6 +4,8 @@ import plotly_express as px
 
 car_data = pd.read_csv('vehicles_us.csv')
 
+st.header('Gráficos para conjunto de datos vehicles_us.csv')
+
 hist_button = st.checkbox('Construir histograma')
 scat_button = st.checkbox('Construir gráfico de dispersión')
         
